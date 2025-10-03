@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: Orbitron;
+  src: url(/src/assets/Fonts/Orbitron-Bold.ttf);
+}
+
+@font-face {
+  font-family: Inter;
+  src: url(/src/assets/Fonts/Inter_18pt-Regular.ttf);
+}
+
+@theme {
+  --font-heading: Orbitron;
+  --font-body: Inter;
+
+  --color-bg: #000000; /*Warna dasar keseluruhan*/
+  --color-primary: #892cdc; /*Warna utama brand → untuk CTA, tombol, link aktif, highlight utama.*/
+  --color-secondary: #52057b; /*Warna pelengkap → navbar glass background, hover state, badge background.*/
+  --color-accent: #bc6ff1; /*Warna efek/gradient → hover efek, chip, border glow.*/
+
+  --color-text-primary: #ffffff; /*Teks utama (judul, heading)*/
+  --color-text-secondary: #e4e4e7; /*Teks isi paragraf*/
+  --color-text-muted: #a1a1aa; /*Placeholder, subtitle, label kecil.*/
+  --color-text-accent: #bc6ff1; /*Highlight kata penting, hover link, underline efek.*/
+  --color-text-disabled: #71717a; /*Teks untuk state disable.*/
+}
+
+*:not(input):not(textarea):not([contenteditable="true"]) {
+  caret-color: transparent;
+}
