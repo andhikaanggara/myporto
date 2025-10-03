@@ -1,6 +1,6 @@
 import ButtonCTA from "../atoms/button/ButtonCTA";
 import Heading from "../atoms/typography/Heading";
-import Profile from "../../assets/Images/Profile.png";
+import Profile from "../../assets/images/Profile.png";
 import ButtonIcon from "../atoms/button/ButtonIcon";
 import {
   Github,
