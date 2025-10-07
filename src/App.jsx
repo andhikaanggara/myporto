@@ -6,9 +6,12 @@ import Contact from "./components/pages/Contact";
 import Skill from "./components/pages/Skill";
 import Project from "./components/pages/Project";
 
+
 function App() {
+
   return (
     <MainLayout>
+      
       <Home />
       <About />
       <Skill />
