@@ -6,7 +6,7 @@ export default function AboutMe() {
   return (
     <section
       id="about"
-      className="h-[calc(100vh-80px)] px-12 flex flex-col items-start justify-center gap-12"
+      className="h-[calc(100vh-80px)] px-12 flex flex-col items-start justify-center gap-12 pb-8"
     >
       <SmallTitle>About Me</SmallTitle>
       <Heading>Turning Precision into Digital Clarity</Heading>
