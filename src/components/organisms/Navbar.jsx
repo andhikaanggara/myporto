@@ -12,13 +12,10 @@ export default function Navbar({ darkMode, onClick }) {
       className={` flex items-center justify-between px-6 h-20 sticky top-0 z-50 `}
     >
       <NavMenu darkMode={darkMode} />
-      <div className="flex items-center gap-6 ">
-        <ToggleDarkMode darkMode={darkMode} onClick={onClick} />
+      <div className="flex items-center gap-6">
+        {/* <ToggleDarkMode darkMode={darkMode} onClick={onClick} /> */}
         <ButtonCTA icon={Handshake}>Let's Work</ButtonCTA>
       </div>
-      {/* <p className="text-white">
-        status : {isLoggedIn ? "Logged In" : "Logged Out"}
-      </p> */}
     </nav>
   );
 }

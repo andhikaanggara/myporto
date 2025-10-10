@@ -9,7 +9,7 @@ export default function AboutMe() {
       className="h-[calc(100vh-80px)] px-12 flex flex-col items-start justify-center gap-12 pb-8"
     >
       <SmallTitle>About Me</SmallTitle>
-      <Heading>Turning Precision into Digital Clarity</Heading>
+      <Heading level="h3">Turning Precision into Digital Clarity</Heading>
       <div className="flex gap-4">
         <div className="flex flex-col gap-0">
           <SmallText>

@@ -17,7 +17,7 @@ export default function Home() {
       <div className="flex flex-col gap-4 items-start">
         <SmallTitle>Let's meet !</SmallTitle>
         <Heading>I'm ANDHIKA ANGGARA</Heading>
-        <Heading level="h2">
+        <Heading level="h3">
           Front-End Developer specialized in building clean, scalable SaaS
           interfaces.
         </Heading>

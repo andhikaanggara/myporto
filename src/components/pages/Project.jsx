@@ -1,5 +1,5 @@
 import SmallTitle from "../atoms/SmallTitle";
-import SmallText from "../atoms/typography/SmallText";
+import Heading from "../atoms/typography/Heading";
 import CardProject from "../molecules/CardProject";
 
 export default function Project() {
@@ -10,7 +10,7 @@ export default function Project() {
     >
       <div className="flex flex-col gap-4 items-start">
         <SmallTitle>Project !</SmallTitle>
-        <SmallText>Check Out my featured Project</SmallText>
+        <Heading level="h3">Check Out my featured Project</Heading>
         <div className="flex gap-4">
           <CardProject href="https://videobelajar-react-nine.vercel.app/">
             Video Belajar
